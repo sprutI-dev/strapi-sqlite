@@ -45,23 +45,11 @@
     "availableSizes": {
       "type": "json"
     },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "inversedBy": "products"
+    "Color": {
+      "type": "string"
     },
-    "featured": {
-      "type": "boolean"
-    },
-    "newArrival": {
-      "type": "boolean"
-    },
-    "bestSeller": {
-      "type": "boolean"
-    },
-    "specialOffer": {
-      "type": "boolean"
+    "Size": {
+      "type": "string"
     }
   }
 }
