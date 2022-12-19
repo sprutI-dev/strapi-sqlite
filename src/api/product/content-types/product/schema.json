@@ -45,10 +45,10 @@
     "availableSizes": {
       "type": "json"
     },
-    "Color": {
+    "color": {
       "type": "string"
     },
-    "Size": {
+    "size": {
       "type": "string"
     }
   }
